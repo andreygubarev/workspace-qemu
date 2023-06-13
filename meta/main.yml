@@ -1,4 +1,7 @@
 galaxy_info:
+  role_name: qemu
+  namespace: andreygubarev
+
   author: Andrey Gubarev <andrey@andreygubarev.com> (andreygubarev.com)
   description: Workspace that contains dummy ansible role for managing QEMU using molecule
   company: andreygubarev
