@@ -9,7 +9,6 @@ platforms:
     image_checksum: sha512:https://cloud.debian.org/images/cloud/bullseye/latest/SHA512SUMS
     image_arch: aarch64
     vm_network: vmnet-shared
-    ssh_user: debian
 provisioner:
   name: ansible
 verifier:
