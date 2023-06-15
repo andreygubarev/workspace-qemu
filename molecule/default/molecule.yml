@@ -9,6 +9,11 @@ platforms:
     image_checksum: sha512:https://cloud.debian.org/images/cloud/bullseye/latest/SHA512SUMS
     image_arch: aarch64
     vm_network: vmnet-shared
+  - name: ubuntu-focal-arm64
+    image: https://cloud-images.ubuntu.com/focal/current/focal-server-cloudimg-arm64.img
+    image_checksum: sha256:https://cloud-images.ubuntu.com/focal/current/SHA256SUMS
+    image_arch: aarch64
+    vm_network: vmnet-shared
 provisioner:
   name: ansible
 verifier:
